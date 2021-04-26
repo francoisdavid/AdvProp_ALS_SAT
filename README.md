@@ -1,7 +1,7 @@
 # Mixture of Techniques to Improve Classification Accuracy and Robustness with Adversarial Training
 
 #### Project done by Martin Dallaire and François David 
-###### For the class IFT-6756 Game Theory and Machine Learning, thought by Gauthier Gidel 
+###### For the class IFT-6756 Game Theory and Machine Learning, thought by Gauthier Gidel - Université de Montréal
 
 More details about each methods in the report: `IFT6756_Project_final_git.pdf` 
 
