@@ -4,8 +4,8 @@
 ###### For the class IFT-6756 Game Theory and Machine Learning, thought by Gauthier Gidel 
 
 Results on the Cifar-10 Dataset
-
-
+![](tableResults.png)
+![](results.png)
 ## In order to run the code, you have to run the following line 
 
 ```
