@@ -3,6 +3,7 @@ import torch.nn as nn
 import torch.nn.functional as F
 import torch.nn.init as init
 from torch.autograd import Variable
+from smooth_functions import SAT, ReLU, Swish
 """
 [1] Kaiming He, Xiangyu Zhang, Shaoqing Ren, Jian Sun.
     Deep Residual Learning for Image Recognition
@@ -119,3 +120,14 @@ class ResNet(nn.Module):
         out = self.linear(out)
 
       return out
+
+
+def resnet18(adversarialTraining=False, advProp=False, activation=ReLU(), labelSmoothing=False):
+    """ return a ResNet 18 object
+    """
+    return ResNet(BasicBlock, [2, 2, 2, 2], adversarialTraining=adversarialTraining, advProp=advProp, activation=activation)
+
+def resnet34(adversarialTraining=False, advProp=False, activation=ReLU(), labelSmoothing=False):
+    """ return a ResNet 34 object
+    """
+    return ResNet(BasicBlock, [3, 4, 6, 3], adversarialTraining=adversarialTraining, advProp=advProp, activation=activation)
