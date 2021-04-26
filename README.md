@@ -3,6 +3,8 @@
 #### Project done by Martin Dallaire and François David 
 ###### For the class IFT-6756 Game Theory and Machine Learning, thought by Gauthier Gidel 
 
+More details about each methods in the report: `IFT6756_Project_final_git.pdf` 
+
 Results on the Cifar-10 Dataset
 ![](tableResults.png)
 ![](results.png)
