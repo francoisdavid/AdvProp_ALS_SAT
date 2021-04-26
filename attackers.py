@@ -22,7 +22,6 @@ def pgd_attack(model, images, labels, eps=0.1, alpha=2/255, iters=2, device='cud
 
 
 # Modified from https://github.com/Harry24k/FGSM-pytorch/blob/master/FGSM.ipynb
-
 def fgsm_attack(model, images, labels, eps=0.1, device='cuda:0') :
     loss = nn.CrossEntropyLoss()
     images = images.to(device)
