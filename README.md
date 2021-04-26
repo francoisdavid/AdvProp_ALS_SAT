@@ -6,7 +6,7 @@
 Results on the Cifar-10 Dataset
 ![](tableResults.png)
 ![](results.png)
-## In order to run the code, you have to run the following line 
+#### In order to run the code, you have to run the following line, in the following order: 
 
 ```
 python traininLoop.py description(string) epochs(int) adversarialTraining(bool) advProp(bool) als(bool) epsilon(float) alpha(float) path(string) npy_path(string) 
