@@ -17,7 +17,7 @@ python traininLoop.py description(string) epochs(int) adversarialTraining(bool) 
 Here are a little bit more details about each parameters and their default values. 
 
 * **description:** Description of the experiment. (Default: "Traditional Training") 
-* **epochs:** Number of epochs you want to algorithm to train for. (Default: 100)
+* **epochs:** Number of epochs you want to train the algorithm for. (Default: 100)
 * **adversarialTraining:** If you want to train on adversarial images, must be true for advProp. (Default: False)
 * **advProp:** If you want to train on adversarial images with auxiliary batch normalization layers, must be have adversarialTraining as true. (Default: False)
 * **als:** If you want to train the smooth version of CE with the adversarial smoothing. (Default: False)
